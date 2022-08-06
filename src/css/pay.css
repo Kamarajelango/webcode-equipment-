@@ -1,0 +1,41 @@
+
+
+.payParent{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(236, 236, 236);
+}
+
+.pDiv2{
+    width: 500px;
+    height: auto;
+    padding: 25px 40px;
+    margin-top: auto;
+    margin-bottom: auto;
+    border-radius: 0.8rem;
+    background-color: white;
+    box-shadow: 10px 10px 10px rgb(167, 166, 166);
+}
+
+.paytext{
+    border-radius: 2rem;
+    height: 40px;
+    padding: 20px;
+}
+
+.pbtn{
+    margin-top: 30px;
+}
+
+.debimg{
+    margin-top: 20px;
+    height: 140px;
+    width: 100%;
+}
+
+.allCredit{
+    height: 100%;
+    width: 100%;
+}

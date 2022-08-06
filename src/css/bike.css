@@ -1,0 +1,128 @@
+@import url("https://cdn.syncfusion.com/ej2/material.css");
+
+/*  */
+.r1{
+  
+  margin: 0;
+  padding: 10px 20px;
+}
+
+.spinner{
+  width: 50px;
+  height: 50px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+/*  */
+.parentss {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 45px;
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.bikeNum {
+  display: flex;
+  justify-content: space-between;
+  padding: 2px 18px 2px 12px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+
+.line1,
+.line2 {
+  margin: 0;
+}
+
+.p1 , .p2{
+margin-bottom: 5px;
+}
+.p1{
+  margin-top: 5px;
+}
+
+.sumInfo{
+  padding-left: 12px;
+}
+
+.span1,.span2{
+  font-weight: bold;
+}
+
+.cards {
+  border-radius: 1.2rem;
+  overflow: hidden;
+  border: 1px solid #222fe8;
+  background-color: rgb(180, 245, 253);
+  margin-bottom: 30px;
+}
+
+.cards:hover {
+  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.imageDiv {
+  width: auto;
+  height: 220px;
+  margin: 0 auto;
+  transition: all 0.2s linear;
+}
+
+.imageDiv:hover{
+  transform: scale(1.1);
+}
+
+.point{
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.options{
+  margin-top: 5px;
+  margin-bottom: 5px;
+  
+}
+
+.btnsDivs{
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding: 0 12px;
+}
+
+ .bookBtn{
+  background-color: #8822e8;
+  border: none;
+  color: white;
+}
+
+/* .bookBtn:hover{
+  background-color: #c01221;
+  
+}  */
+
+:disabled:hover{
+  background-color: rgb(209, 209, 209);
+}
+
+.rsBtn{
+  margin-right: 65px;
+ font-weight: bold;
+  border: none;
+  color:rgb(0, 0, 0);
+
+}
+
+
+/* media queries */
+
+@media(max-width:356px){
+  .r1{
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}

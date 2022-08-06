@@ -1,0 +1,365 @@
+.imgDiv{
+    width: 100%;
+    height:650px;
+    position: relative;
+}
+
+.wallpaper{
+    width: 100%;
+    height: 100%;
+}
+
+.hovers{
+    position: fixed;
+    top: 56px;
+    left: 0;
+    width: 100%;
+    height: 600px;
+    background-color: rgb(0, 0, 0 , 0.3);
+    
+}
+
+.sloganDiv{
+    position: absolute;
+    color: rgb(3, 224, 77);
+    margin-top: 150px;
+    font-size:Bold;
+    top: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+.slg1{
+    font-size: 4rem;
+    font-family: 'Merriweather Sans', sans-serif;;
+    font-weight: 800px;
+    word-spacing: 10px;
+    margin-bottom: 40px;
+}
+
+.slg2{
+    font-size: 2rem;
+    font-family:'Abril Fatface', cursive; 
+    font-weight: lighter;
+    color:#050707;
+}
+
+.slg3{
+    font-size:1.8rem;
+    font-weight:lighter;
+    color:#f8f7f7;
+}
+
+.bootcol{
+    margin-bottom: 80px;
+}
+
+.bkBtn{
+    margin-top: 140px;
+    padding: 10px 50px;
+    background-color: #030a03;
+    border-color: #f7862a;
+    font-size: 2rem;
+    border-radius: 2rem;
+    transition: all 0.3s linear;
+    /* box-shadow: 10px 10px 10px rgb(56, 54, 54); */
+}
+
+.bkBtn:hover{
+    transform: scale(1.1);
+}
+
+.iconDivs{
+    width: 140px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+}
+
+/* .ic1{
+    color: red;
+} */
+
+.heads{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.labels{
+    font-size: 2.5rem;
+    color: rgb(245, 81, 31);
+}
+
+.whyRow{
+    padding:45px 80px 30px 80px;
+}
+
+
+.service{
+    color: rgb(245, 81, 31);
+    margin-bottom: 10px;
+}
+
+.use{
+   padding: 20px 50px 0 50px;
+   text-align: center;
+}
+
+.services{
+    padding: 80px 20px 120px 20px;
+   
+    /*  */
+  
+}
+
+.working{
+    font-size: 2.5rem;
+    color: rgb(245, 81, 31);
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+
+.workDiv{
+    width:400px ;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*  */
+
+
+.profile{
+    width: 10%;
+    border-radius: 50%;
+    opacity: 1;
+    padding-bottom: 5px;
+    z-index: 1;
+  }
+
+.slide , .slide1{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 235, 235);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 0px 10px 15px 10px;
+    margin-bottom: 40px;
+  }
+
+  .slide1{
+   padding-bottom: 5px;
+  }
+
+ .slideShow{
+     padding-left: 150px;
+     padding-right: 150px;
+ } 
+.heads2{
+    text-align: center;
+    margin-top: 0px;
+}
+
+.callDiv{
+    padding: 20px 60px;
+}
+
+.callBtn{
+    text-align: center;
+    border: none;
+    padding: 20px 80px;
+    border-radius: 2rem;
+    font-size: 1.2rem;
+    margin-bottom: 25px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    transition: all 0.2s linear;
+    cursor: pointer;
+}
+
+.callBtn:hover{
+    transform: scale(1.1);
+}
+
+.social{
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.socialIcons{
+    margin-right: 20px;
+    text-decoration: none;   
+}
+
+.footers{
+    margin-top: 50px;
+    background-color: #8ff43d;
+    text-align: center;
+    padding: 40px 200px;
+    color: rgb(10, 3, 3);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.ic{
+    color: white;
+}
+
+.ic:hover{
+    color: black;
+}
+
+.footerSocial{
+    margin-top: 40px;
+}
+
+.lastTitles{
+    width:500px;
+    text-align:center; 
+    margin: auto;
+}
+
+/* mediaqueries */
+
+@media(max-width:1120px){
+    .footers{
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+    .imgDiv{
+        height:500px;
+    }
+}
+
+@media(max-width:1105px){
+    .bkBtn{
+        margin-top: 60px;
+    }
+
+    .slg1{
+        font-size: 3rem;
+    }
+}
+
+@media(max-width:940px){
+    .slideShow{
+        padding-right: 70px;
+        padding-left: 70px;
+    }
+
+    .footers{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .imgDiv{
+        height: 440px;
+    }
+
+    .sloganDiv{
+        margin-top: 100px;
+    }
+}
+
+@media(max-width:870px){
+    .sloganDiv{
+        margin-top: 60px;
+    }
+}
+
+
+
+@media(max-width:600px){
+    .lastTitles{
+        width: 100%;
+    }
+
+    .slideShow{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .sloganDiv{
+        margin-top: 40px;
+    }
+
+    .imgDiv{
+        height: 400px;
+    }
+}
+
+
+
+@media(max-width:480px){
+    .whyRow{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .workDiv{
+        width: 100%;
+    }
+}
+
+@media(max-width:591px){
+    .callDiv{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .slg1{
+        font-size: 1.8rem;
+    }
+
+    .slg2{
+        font-size: 1.4rem;
+    }
+}
+
+
+@media(max-width:390px){
+    .use{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .callBtn{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .callDiv{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .imgDiv{
+        height: 300px;
+    }
+    .footers{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .bkBtn{
+        font-size: 1rem;
+        margin-top: 40px;
+        padding: 10px 20px;
+    }
+    .slg1{
+        font-size: 1.4rem;
+    }
+}
+
+
+@media(max-width:341px){
+    .whyRow{
+        padding: 0;
+    }
+}
+
+
+@media(max-width:300px){
+    .slg1{
+        font-size: 1.3rem;
+    }
+    .slg2{
+        font-size: 1rem;
+    }
+}

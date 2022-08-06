@@ -1,0 +1,89 @@
+
+.navitem{
+    color: rgb(0, 0, 0);
+}
+
+.logIcon{
+    margin-left: 10px;
+}
+
+.appName{
+    font-size: 1.8rem;
+    font-weight: bold;
+    padding: 0;
+   
+}
+
+.appName:hover{
+    color: rgb(245, 241, 17);
+}
+.sName{
+    color: rgb(201, 18, 18);
+}
+/* a:hover{
+    text-decoration: none;
+    color: white;
+} */
+
+.navLog {
+    border:1px solid rgb(233, 55, 10);
+    background-color: #020107;
+    color: white;
+    margin-top: 7px;
+    padding: 4px 10px 5px 10px;
+    margin-top: 2px;
+    border-radius: 0.5rem;
+    margin-right: 25px;
+    
+}
+
+.navLog:hover{
+    cursor: pointer;
+    background-color: rgb(233, 6, 6);
+    color: black;
+}
+
+.end{
+    justify-content: space-between;
+}
+
+.navLink{
+    margin-right: 22px;
+    margin-left: 18px;
+    color: white;
+}
+
+.navLink:hover{
+    text-decoration: underline white;
+    color: white;
+}
+
+.dropLog{
+    padding-top: 4px;
+    color: white;
+    margin-top: 3px;
+    background-color: #22e87b;
+    border: 0.7px solid white;
+    border-radius: 0.5rem;
+    margin-right: 25px;
+}
+
+.dropLog:hover{
+    color: black;
+    background-color: white;
+    box-shadow: none;
+}
+
+.tg{
+    margin-top: 4.8px;
+    color: white;
+}
+
+.icon{
+    padding-right: 20px;
+}
+
+.drop{
+    margin-top: 8px;
+    width: 200px;
+}

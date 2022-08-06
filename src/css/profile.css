@@ -1,0 +1,98 @@
+
+.colsss2{
+    padding: 25px 25px;
+}
+
+.colsss1{
+    padding: 80px 25px 60px 25px;
+}
+.profImage{
+    width: 100%;
+    height: 300px;
+    margin-bottom:20px;
+}
+
+.selfCam{
+    width: 100%;
+    height: 300px;   
+}
+
+.leftDash{
+    padding-bottom: 30px;
+    border: 1px solid #e82231;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.myBook{
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.divs1{
+    margin-left: 5px;
+    margin-right: 15px;
+    padding: 0;
+    height: 36px;
+    text-align: center;
+}
+
+/* .divs1:hover{
+    background-color: #e82231;
+    color: white;
+    cursor: pointer;
+} */
+
+.clck{
+    border: none;
+    color: black;
+}
+
+.tdData{
+    font-weight: bold;
+}
+
+.tablecss{
+    height: 508px;
+    overflow: auto;
+    overflow-x: hidden;
+    text-align: center;
+}
+
+.footer{
+    width: 100%;
+    height: 20px;
+    background-color: #e82231;
+}
+
+.edit{
+    width: 100%;
+    height: auto;
+    text-align:"center";
+    padding-left: 150px;
+}
+
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+::-webkit-scrollbar-track{
+    border-radius: 5px;
+    box-shadow: inset 0 0 10px rgba(0 , 0 , 0 , 0.25);
+}
+
+::-webkit-scrollbar-thumb{
+    border-radius: 5px;
+    background-color:rgb(204, 204, 204);
+}
+
+@media (max-width:1300px){
+    
+.tablecss{
+    overflow-x: auto;
+    text-align: center;
+}
+
+}
+

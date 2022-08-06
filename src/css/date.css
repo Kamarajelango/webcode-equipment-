@@ -1,0 +1,61 @@
+.dateParent {
+  display: flex;
+  justify-content: center;
+}
+
+.datePicker1,
+.datePicker2,
+.timePicker1,
+.timePicker2 {
+  margin-right: 20px;
+  background-color: white;
+  padding: 5px 10px;
+  border-radius: 1rem;
+}
+
+.location{
+  border: none;
+  width: 140px;
+  margin-left: 5px;
+  margin-top: 5px;
+
+}
+
+.rentBtn{
+  margin-right: 10px;
+}
+
+.locationIcon{
+  opacity: 0.4;
+}
+
+.dateChild {
+  display: flex;
+  padding: 20px 35px;
+  margin: 15px auto 35px auto;
+  border-radius: 1rem;
+  background-color: #e82231;
+}
+
+/* media query */
+
+@media(max-width:758px){
+  .dateChild{
+    flex-direction: column;
+  }
+  
+.datePicker1,
+.datePicker2,
+.timePicker1,
+.timePicker2 {
+  margin-bottom: 10px;
+}
+
+}
+
+@media(max-width:356px){
+  .dateChild{
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+}
